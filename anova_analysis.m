@@ -26,7 +26,7 @@ ABC_ort=(Aort+Bort+Cort)/k;
 
 SSW=(Aortfark_toplam+Bortfark_toplam+Cortfark_toplam);
 
-SSB=5*((Aort-ABC_ort)^2)+5*((Bort-ABC_ort)^2)+5*((Cort-ABC_ort)^2);
+SSB=14*((Aort-ABC_ort)^2)+13*((Bort-ABC_ort)^2)+13*((Cort-ABC_ort)^2);
 
 SST=sum((A-ABC_ort).^2)+sum((B-ABC_ort).^2)+sum((C-ABC_ort).^2);
 
